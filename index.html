@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PLASMA 2K26 | JNNCE Techfest</title>
+<style>
+:root{--bg:#0a0410;--card:#160a1f;--gold:#e0b04a;--mag:#ff3d8b;--vio:#9b5cff;--tx:#f3e9f5;--mu:#b9a6c4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#0a0410}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Segoe UI",system-ui,Arial,sans-serif;line-height:1.6}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;display:flex;justify-content:space-between;align-items:center;padding:14px 5%;background:rgba(10,4,16,.85);backdrop-filter:blur(8px);border-bottom:1px solid #2a1638}
+nav b{color:var(--gold);letter-spacing:3px}nav div{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:var(--mu);text-decoration:none;font-size:14px}nav a:hover{color:var(--mag)}
+.hero{text-align:center;padding:90px 5% 80px;background:radial-gradient(circle at 50% 30%,#7a1238 0,#2a0a3a 45%,var(--bg) 75%)}
+.hero small{letter-spacing:3px;color:var(--mu);text-transform:uppercase;font-size:13px}
+.hero h1{font-family:Georgia,serif;font-size:clamp(48px,12vw,120px);margin:14px 0;color:var(--gold);letter-spacing:6px;text-shadow:0 0 40px rgba(255,61,139,.5)}
+.tag{display:inline-block;color:var(--gold);font-weight:700;letter-spacing:2px;border:1px solid var(--gold);padding:6px 18px;border-radius:4px}
+.date{margin:28px 0 8px;font-size:22px;font-weight:700;color:var(--gold)}
+.btn{display:inline-block;margin:22px 8px 0;padding:13px 30px;border-radius:6px;text-decoration:none;font-weight:700;background:linear-gradient(90deg,var(--mag),var(--vio));color:#fff}
+.btn.o{background:none;border:1px solid var(--mag)}
+.stats{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;padding:0 5%;margin-top:-30px}
+.stat{border:1px solid #6b2a44;background:var(--card);padding:18px 30px;border-radius:10px;text-align:center;min-width:200px}
+.stat b{display:block;font-size:34px;color:var(--gold)}.stat span{color:var(--mu);font-size:14px}
+section{max-width:1050px;margin:0 auto;padding:70px 5%}
+h2{font-family:Georgia,serif;color:var(--gold);font-size:32px;margin:0 0 8px;text-align:center}
+.sub{text-align:center;color:var(--mu);margin:0 auto 34px;max-width:620px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid #2a1638;border-radius:12px;padding:22px}
+.card:hover{border-color:var(--mag)}.card h3{margin:0 0 6px;color:var(--mag);font-size:18px}.card p{margin:0;color:var(--mu);font-size:14px}
+.n{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--mag),var(--vio));display:grid;place-items:center;font-weight:700;margin-bottom:12px}
+.about{text-align:center;color:var(--mu);max-width:720px;margin:0 auto}
+footer{text-align:center;padding:40px 5%;border-top:1px solid #2a1638;color:var(--mu);font-size:14px}
+footer b{color:var(--gold)}
+</style>
+</head>
+<body>
+<nav><b>PLASMA 2K26</b><div><a href="#about">About</a><a href="#events">Events</a><a href="#steps">How it works</a><a href="#venue">Venue</a></div></nav>
+
+<header class="hero">
+<small>Jawaharlal Nehru New College of Engineering presents</small>
+<h1>PLASMA 2K26</h1>
+<span class="tag">&lt;&lt;&lt; NATIONAL LEVEL TECHFEST &gt;&gt;&gt;</span>
+<div class="date">Dates to be announced</div>
+<div>Are you ready to enter?</div>
+<a class="btn" href="#steps">Register Now</a><a class="btn o" href="#venue">Locate Us</a>
+</header>
+
+<div class="stats">
+<div class="stat"><b>20+</b><span>Epic Events</span></div>
+<div class="stat"><b>₹ TBA</b><span>Prize Pool</span></div>
+<div class="stat"><b>Open</b><span>To students across India</span></div>
+</div>
+
+<section id="about">
+<h2>About PLASMA</h2>
+<p class="about">PLASMA 2K26 is the flagship technical fest of Jawaharlal Nehru New College of Engineering (JNNCE), Shivamogga. Step through the gate, take on technical challenges, pitch your ideas, and compete for cash prizes alongside students from across the country.</p>
+</section>
+
+<section id="events">
+<h2>Choose Your Challenge</h2>
+<p class="sub">Browse technical challenges across four tracks.</p>
+<div class="grid">
+<div class="card"><h3>Engineering &amp; Design</h3><p>Circuits, hardware builds, design and core-branch challenges.</p></div>
+<div class="card"><h3>Code &amp; Compute</h3><p>Hackathons, coding battles, AI and software problem solving.</p></div>
+<div class="card"><h3>Research &amp; Presentation</h3><p>Paper presentations, posters and project showcases.</p></div>
+<div class="card"><h3>Enterprise &amp; Expression</h3><p>Startup pitches, quizzes, creative and non-technical events.</p></div>
+</div>
+</section>
+
+<section id="steps">
+<h2>Your Roadmap</h2>
+<p class="sub">From choosing your challenge to winning prizes.</p>
+<div class="grid">
+<div class="card"><div class="n">1</div><h3>Pick an Event</h3><p>Explore the tracks and choose what fits your skills.</p></div>
+<div class="card"><div class="n">2</div><h3>Form a Team</h3><p>Team up with fellow innovators or go solo.</p></div>
+<div class="card"><div class="n">3</div><h3>Register Online</h3><p>Sign up before the deadline closes.</p></div>
+<div class="card"><div class="n">4</div><h3>Compete &amp; Win</h3><p>Present your solution to judges and win cash prizes.</p></div>
+</div>
+</section>
+
+<section id="venue">
+<h2>Venue</h2>
+<p class="about">Jawaharlal Nehru New College of Engineering (JNNCE)<br>Shivamogga, Karnataka, India<br><br>Registration link, map and contact details will be added here.</p>
+</section>
+
+<footer><b>PLASMA 2K26</b> &middot; Jawaharlal Nehru New College of Engineering</footer>
+</body>
+</html>
