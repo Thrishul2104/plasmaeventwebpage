@@ -197,6 +197,8 @@ document.getElementById("rf").addEventListener("submit",async function(ev){ev.pr
  m.textContent=r.ok?"Registered! See you at PLASMA 2K26.":(r.status===409?"You are already registered for this event.":"Something went wrong. Please try again.");if(r.ok)this.reset()}
  catch(e){m.textContent="Network error. Please try again."}});
 loadEvents();
+var q=new URLSearchParams(location.search).get("event");
+if(q){setTimeout(function(){var f=document.getElementById("f_event");f.value=q;document.getElementById("register").scrollIntoView()},600)}
 })();
 </script>
 </body>
